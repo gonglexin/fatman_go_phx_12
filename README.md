@@ -1,6 +1,6 @@
 # FatmanGo
 
-![snake_zhangjiajie](https://github.com/gonglexin/fatman_go/raw/master/priv/static/images/snake_zhangjiajie.gif)
+![snake_zhangjiajie](https://github.com/gonglexin/fatman_go/raw/master/web/static/assets/images/snake_zhangjiajie.gif)
 
 To start your Phoenix app:
 
