@@ -55,13 +55,13 @@ var locationSymbol = {
 };
 
 function updatePlace(place) {
-  poly.setMap(null);    
+  poly.setMap(null);
   console.log(place);
   paths.push({lat: place.lat, lng: place.lon});
   if(paths.length > 5) {
     paths = paths.slice(Math.max(paths.length - 5, 1))
   }
-    
+
   poly = new google.maps.Polyline({
     path: paths,
     geodesic: true,
@@ -72,6 +72,6 @@ function updatePlace(place) {
   });
 
   poly.setMap(map);
-} 
+}
 
 channel.on("update_place", place => updatePlace(place))
